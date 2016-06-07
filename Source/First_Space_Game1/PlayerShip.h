@@ -239,7 +239,7 @@ public:
 	UPROPERTY( EditDefaultsOnly, Category = Weapons )
 	ULaser* Laser;
 
-	const FVector &GetMuzzleLocation( int Muzzle ) const;
+	const FVector GetMuzzleLocation( int Muzzle ) const;
 
 	void TriggerPrimary();
 

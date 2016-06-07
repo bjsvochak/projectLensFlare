@@ -733,7 +733,7 @@ void APlayerShip::ServerTakeDamage_Implementation( float Damage, struct FDamageE
 	}
 }
 
-const FVector &APlayerShip::GetMuzzleLocation( int Muzzle ) const
+const FVector APlayerShip::GetMuzzleLocation( int Muzzle ) const
 {
 	return CockpitMesh->GetSocketLocation( MuzzleAttachPoints[Muzzle] );
 }
